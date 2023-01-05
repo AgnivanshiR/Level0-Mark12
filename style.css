@@ -118,3 +118,13 @@ button{
     color: var(--primary-color);
 }
 
+.radiost{
+    text-align: center;
+    margin: 0px;
+    padding: auto;
+    height: 2vh;
+
+
+
+}
+
