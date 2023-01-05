@@ -8,7 +8,7 @@ function calculateArea() {
     var base = Number(sides[0].value)
     var height = Number(sides[1].value)
     var area = (base*height)/2;
-    outputEl.innerText = "The area of the triangle is: " + area
+    outputEl.innerText = "The area of the triangle is: " + area +" square cm"
 }
 
 

@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse Length</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <h1>Calculate Hypotenuse</h1>
-        <label>a:<input type="number" class="side-input"></label>
-        <label>b:<input type="number" class="side-input"></label>
-        <button id="hypotenuse-btn">Calculate Hypotenuse</button>
-    </div>
-    <div id="output"></div>
+
+    <nav class="navigation">
+        <div class="navbar">Fun With Triangles</div>
+        <ul class="no-bullets navpills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="/area.html">Area of triangle</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="conatiner--center">
+            <h1>Calculate Hypotenuse</h1>
+            <label>a:<input type="number" class="side-input"></label>
+            <br/>
+            <label>b:<input type="number" class="side-input"></label>
+            <br/>
+            <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+            <div class="text" id="output"></div>
+        </div>
+        
+    </main>
     <script src="hypotenuse.js"></script>
-    
+
 </body>
+
 </html>
